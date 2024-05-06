@@ -47,12 +47,12 @@ public class CommandBot extends TelegramLongPollingBot {
     private sendRasp sendRasp = new sendRasp();
     @Override
     public String getBotUsername() {
-        return "guslya";
+        return "имя бота";
     }
 
     @Override
     public String getBotToken() {
-        return "6075487753:AAFUv0I6gLvH-bgRozUjrKxGDZH-30GMnz4";
+        return "ключ бота";
     }
     boolean iksCheck = false;
     boolean gnsCheck = false;
